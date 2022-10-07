@@ -18,14 +18,16 @@ npm i linkhog
 
 const linkhog = require("linkhog")
 
+Providing a single argument will scrape the site and return the results as an object.
 ```
 // This would scrape the website and return the results to the results constant
 const scrape = async ()=>{
   const results = await linkhog("www.yourdomain.com")
-  console.log(results
+  console.log(results)
 }
 ```
 
+Providing a second argument will write the results to a file
 ```
 // This would scrape the website and write the results to a file in JSON
 const scrapeAndWrite = async ()=>{
