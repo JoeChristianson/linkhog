@@ -33,11 +33,12 @@ const scrapeAndWrite = async ()=>{
 
 ### as stand-alone app
 
+```
 Have node installed. 
 Clone down linkhog.
 go to the root directory of the app.
 Run:
 node index.js www.yourdomain filePathForWritingResults.json
-
+```
 
 
